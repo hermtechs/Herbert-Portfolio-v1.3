@@ -70,7 +70,10 @@ nav .nav-links a{
     justify-content: space-around;
     align-items: center;
     margin-top: 1.5rem;
-    margin-left: -4rem;
+    /* margin-left: -4rem; */
+    margin: auto 0;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .hero-img-container img{
@@ -98,8 +101,9 @@ nav .nav-links a{
     right: 7rem;
 }
 .social-media-icons a i{
-    color:#fff;
+    color:#bbb;
     font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 .description-txt{
     margin-bottom: 1rem;
@@ -115,11 +119,16 @@ nav .nav-links a{
         grid-template-columns:1fr;
         justify-content: center;
     }
-    .hero-img-container::before{
-       overflow: hidden;
+    .hero-img-container{
+        margin-left: 5px;
     }
+    .hero-img-container::before{
+    padding: 12rem 10rem;
+    }
+    
     .hero-img-container{
         margin-top: -3rem;
+        max-width: 100%;
         overflow: hidden;
     }
     .hero-img-container img{
