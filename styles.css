@@ -53,13 +53,15 @@ nav .nav-links a{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin: auto 5rem;
+    margin: auto 2rem;
 }
 .header-show-case-txt{
     max-width: 80%;
+    padding-top: 2rem;
 }
+
 .header-show-case-txt h1{
-    font-size: clamp(3rem, 1.5vw, 4rem);
+    font-size: clamp(2.5rem, 1.5vw, 4rem);
     display: inline-block;
 }
 .hero-img-container{
@@ -113,24 +115,24 @@ nav .nav-links a{
         grid-template-columns:2fr;
         justify-content: center;
     }
-    .hero-img-container::before{
+    /* .hero-img-container::after{
         content: "";
         position: absolute;
-        padding: 10rem 10rem 10rem 0rem;
         background: var(--color-bg-primary);
         z-index:-1;
         border-radius: 50%;
         right: 2rem;
-        order: -1;
-    }
+        top:5rem;
+       
+    } */
     .hero-img-container{
-        margin-top: -4rem;
+        margin-top: -3rem;
     }
     .hero-img-container img{
         right:1.5rem;
     }
     .social-media-icons{
-        right: 2.5rem;
+        right: 3rem;
         top: 3rem;
     }
 }
