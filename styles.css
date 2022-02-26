@@ -112,27 +112,21 @@ nav .nav-links a{
 }
 @media(max-width:600px){
     .header{
-        grid-template-columns:2fr;
+        grid-template-columns:1fr;
         justify-content: center;
     }
-    /* .hero-img-container::after{
-        content: "";
-        position: absolute;
-        background: var(--color-bg-primary);
-        z-index:-1;
-        border-radius: 50%;
-        right: 2rem;
-        top:5rem;
-       
-    } */
+    .hero-img-container::before{
+       overflow: hidden;
+    }
     .hero-img-container{
         margin-top: -3rem;
+        overflow: hidden;
     }
     .hero-img-container img{
         right:1.5rem;
     }
     .social-media-icons{
-        right: 3rem;
+        right: 1rem;
         top: 3rem;
     }
 }
