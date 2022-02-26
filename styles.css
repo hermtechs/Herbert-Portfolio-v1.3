@@ -38,7 +38,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     max-width: 100%;
-    background: rgb(229, 229, 250);
+    background: #fff;
     padding: 0.5rem
 }
 nav .nav-links{
@@ -95,6 +95,10 @@ nav .nav-links a{
     top:5rem;
     right: 7rem;
 }
+.social-media-icons a i{
+    color:#fff;
+    font-size: 1.2rem;
+}
 .description-txt{
     margin-bottom: 1rem;
 }
@@ -128,9 +132,5 @@ nav .nav-links a{
     .social-media-icons{
         right: 2.5rem;
         top: 3rem;
-    }
-    .social-media-icons a i{
-        color:#fff;
-        font-size: 1.2rem;
     }
 }
