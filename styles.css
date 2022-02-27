@@ -54,6 +54,7 @@ nav .nav-links a{
     align-items: center;
     max-width: 100%;
     margin: auto 1.5rem;
+    /* background: url("./images/endless-constellation.svg"); */
 }
 .header-show-case-txt{
     max-width: 80%;
@@ -128,7 +129,7 @@ nav .nav-links a{
     .hero-img-container{
         margin-top: -3rem;
         max-width: 100%;
-        overflow: 90%;
+        overflow: hidden;
     }
     .hero-img-container img{
         right:3.1rem;
@@ -137,15 +138,8 @@ nav .nav-links a{
         right: 0.5rem;
         top: 3rem;
     }
-}
-@media(max-width:500px){
-    .hero-img-container{
-        overflow:hidden;
-    }
-    .hero-img-container::before{
-        padding: 12rem 16rem;
-        }
     .header{
-     margin:auto 0.2rem;   
-        }    
+        margin:auto 0.2rem;   
+           }
 }
+
