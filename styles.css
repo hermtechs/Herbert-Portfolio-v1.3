@@ -119,11 +119,9 @@ nav .nav-links a{
         grid-template-columns:1fr;
         justify-content: center;
     }
-    .hero-img-container{
-        margin-left: 5px;
-    }
+
     .hero-img-container::before{
-    padding: 12rem 10rem;
+    padding: 12rem 16rem;
     }
     
     .hero-img-container{
@@ -132,10 +130,10 @@ nav .nav-links a{
         overflow: hidden;
     }
     .hero-img-container img{
-        right:1.5rem;
+        right:3.1rem;
     }
     .social-media-icons{
-        right: 1rem;
+        right: 0.5rem;
         top: 3rem;
     }
 }
