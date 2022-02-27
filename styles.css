@@ -127,7 +127,7 @@ nav .nav-links a{
     .hero-img-container{
         margin-top: -3rem;
         max-width: 100%;
-        overflow: hidden;
+        overflow: 90%;
     }
     .hero-img-container img{
         right:3.1rem;
