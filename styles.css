@@ -139,6 +139,9 @@ nav .nav-links a{
 }
 @media(max-width:500px){
     .hero-img-container{
-        overflow:unset;
+        overflow:hidden;
     }
+    .hero-img-container::before{
+        padding: 12rem 16rem;
+        }
 }
