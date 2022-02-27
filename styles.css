@@ -137,3 +137,8 @@ nav .nav-links a{
         top: 3rem;
     }
 }
+@media(max-width:500px){
+    .hero-img-container{
+        overflow:unset;
+    }
+}
