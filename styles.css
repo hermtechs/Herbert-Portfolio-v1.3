@@ -53,11 +53,12 @@ nav .nav-links a{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin: auto 2rem;
+    margin: auto 1.5rem;
 }
 .header-show-case-txt{
     max-width: 80%;
     padding-top: 2rem;
+    margin: auto 2rem;
 }
 
 .header-show-case-txt h1{
@@ -144,4 +145,7 @@ nav .nav-links a{
     .hero-img-container::before{
         padding: 12rem 16rem;
         }
+    .header{
+     margin:auto 0.2rem;   
+        }    
 }
